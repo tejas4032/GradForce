@@ -1,12 +1,3 @@
-This is code for the following tutorial:
-
-![Fiverr Clone](https://github.com/vukrosic/next14-fiverr/blob/main/public/thumbnail.png?raw=true)
-
-[VIDEO TUTORIAL](https://youtu.be/UK5SI3lU3X8)
-
-
-If you want to run this I recommend following the tutorial. You can also try the following:
-
 ## Required:
 Node version 14.x
 
@@ -41,8 +32,6 @@ NEXT_STRIPE_SECRET_KEY=
 ```bash
 npm run dev
 ```
-
-At this point, you application should work, but it probably doesn't. You may check timesteps in the video description or try to read and solve errors by yourself. You can also ask in comments.
 
 
 

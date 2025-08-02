@@ -17,6 +17,8 @@ interface SellerPageProps {
 const SellerPage = ({
     params
 }: SellerPageProps) => {
+    console.log("params.username:", params.username);  //ye naya he 
+
     const seller = useQuery(api.users.getUserByUsername, { username: params.username });
     const skills = useQuery(api.skills.getByUser, { username: params.username });
     const gigs = useQuery(api.gigs.getBySellerName, { sellerName: params.username });

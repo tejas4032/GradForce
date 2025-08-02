@@ -14,7 +14,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'necessary-ladybug-115.convex.cloud',
+                hostname: 'energized-fish-168.convex.cloud',
                 pathname: '**',
             },
             {
@@ -27,6 +27,11 @@ const nextConfig = {
                 hostname: 'images.unsplash.com',
                 pathname: '**',
             },
+            {
+                protocol: 'https',
+                hostname: 'storage.googleapis.com',
+                pathname: '**',
+              },
         ],
     },
 };
