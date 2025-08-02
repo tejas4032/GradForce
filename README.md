@@ -1,11 +1,6 @@
 ## Required:
 Node version 14.x
 
-## Clone this repo
-```bash
-git clone https://github.com/vukrosic/next14-fiverr
-```
-
 ## Install packages
 ```bash
 cd next14-fiverr & npm install
