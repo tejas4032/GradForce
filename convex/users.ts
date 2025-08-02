@@ -146,6 +146,8 @@ export const updateStripeSetup = internalMutation({
 export const getUserByUsername = query({
     args: { username: v.optional(v.string()) },
     handler: async (ctx, args) => {
+        console.log("getUserByUsername called with username:", args.username); // Log the input
+
         if (args.username === undefined) return null;
         if (!args.username) return null;
         const user = await ctx.db

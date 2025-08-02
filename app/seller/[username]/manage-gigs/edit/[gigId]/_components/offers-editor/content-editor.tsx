@@ -53,7 +53,7 @@ export const ContentEditor = ({
                 <Input id="title" placeholder="title" value={title} onChange={(e) => setTitle(e.target.value)} />
             </div>
             <div className="">
-                <Label htmlFor="price">Price (USD):</Label>
+                <Label htmlFor="price">Price (Rupees):</Label>
                 <Input id="price" placeholder="price" type="number" value={price} onChange={(e) => setPrice(parseInt(e.target.value))} />
             </div>
             <div>

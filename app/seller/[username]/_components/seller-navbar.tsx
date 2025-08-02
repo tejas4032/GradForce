@@ -66,11 +66,11 @@ export const SellerNavbar = () => {
                     <UserButton />
                 </div>
             </div>
-            <div className="flex w-full justify-center p-3">
+          { /* <div className="flex w-full justify-center p-3">
                 <NavigationMenu>
                     <NavigationMenuList className="flex flex-col md:flex-row">
                         <NavigationMenuItem>
-                            <Link href="/docs" legacyBehavior passHref>
+                            <Link href={`/seller/${currentUser?.username}/dashboard`} legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                     Dashboard
                                 </NavigationMenuLink>
@@ -84,9 +84,9 @@ export const SellerNavbar = () => {
                                         <NavigationMenuLink asChild>
                                             <a
                                                 className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                                href="/"
+                                                href={`/seller/${currentUser?.username}/orders`}
                                             >
-                                                {/* <Image className="h-6 w-6" /> */}
+                                             
                                                 <div className="mb-2 mt-4 text-lg font-medium">
                                                     Orders
                                                 </div>
@@ -99,7 +99,7 @@ export const SellerNavbar = () => {
                                     <ListItem href={`/seller/${currentUser?.username}/manage-gigs`} title="Gigs">
                                         Manage, create and edit your gigs here.
                                     </ListItem>
-                                    <ListItem href={`/seller/${currentUser}/profile`} title="Profile">
+                                    <ListItem href={`/seller/${currentUser?.username}/profile`} title="Profile">
                                         Manage and edit your profile. Present yourself to the world.
                                     </ListItem>
                                 </ul>
@@ -122,7 +122,7 @@ export const SellerNavbar = () => {
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <Link href="/docs" legacyBehavior passHref>
+                            <Link href={`/seller/${currentUser?.username}/analytics`} legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                     Analytics
                                 </NavigationMenuLink>
@@ -130,7 +130,7 @@ export const SellerNavbar = () => {
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
-            </div>
+            </div> */}
         </div>
     )
 }

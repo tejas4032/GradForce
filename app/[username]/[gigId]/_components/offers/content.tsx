@@ -47,7 +47,7 @@ export const Content = ({
         <div className="space-y-4 bg-white">
             <div className="flex pb-4 font-bold items-center">
                 <h1>{offer.title}</h1>
-                <p className="ml-auto text-2xl">${offer.price}</p>
+                <p className="ml-auto text-2xl">₹{offer.price}</p>
             </div>
             <p>{offer.description}</p>
             <div className="flex flex-col font-semibold text-zinc-700 space-y-2">
